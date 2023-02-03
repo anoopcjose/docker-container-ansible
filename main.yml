@@ -1,6 +1,6 @@
 ---
 - name: "Building Docker Image From Github Repository"
-  hosts: build
+  hosts: localhost
   become: true
   vars_files:
     - docker-credentials.yml
